@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raja</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/d933cbcb33.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav id="navbar">
+          <h1 style="font-size: 40px;margin-left:50px;color: aqua;font-family: sans-serif;">Chinnaraja</h1>
+          <!-- <img src="/Images/log.svg" class="logo" /> -->
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a href="/CV/Chinnarajacs.pdf" download class=""
+                >Resume</a
+              >
+            </li>
+            <!-- <i class="fa-sharp fa-solid fa-xmark"></i> -->
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Developer</p>
+          <h1>
+            Hi, I am <span class="typing"></span><br />from TamilNadu, India.
+          </h1>
+        </div>
+        <a href="/CV/Chinnarajacs.pdf" download class="btn btn2"
+          >Download Resume</a
+        >
+        
+      </div>
+    </div>
+
+    <!-- ============================ABOUT=========================================== -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/Images/lface1.jpeg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              A passionate Full Stack Developer, Dedicated to developing
+              robust applications that interact with the Backend part of web
+              applications. Extensive expertise in website architecture, design,
+              web design, and web API designs. I'm also an enthusiastic learner
+              who's constantly working to learn new things and improve my skills
+              to be the best version of myself
+            </p>
+            <h2>Some of my interests aprt from Coding:</h2>
+            <li>Fitness</li>
+            <li>Playing Cricket</li>
+            <li>Movies</li>
+            <li>Travel</li>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul class="ulist">
+                <li><span>Core Java</span><br /></li>
+                <li><span>MySQL</span><br /></li>
+                <li><span>SpringBoot</span><br /></li>
+                <li><span>HTML</span><br /></li>
+                <li><span>CSS</span><br /></li>
+                <li><span>JavaScript</span><br /></li>
+                <li><span>React js</span><br /></li>
+                <li><span>GIT</span><br /></li>
+                <li><span>Apache_Maven</span><br /></li>
+               
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2022 - 2023</span><br />Full Stack  Devloper Intern.
+                </li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2022-2024</span><br />Master OF Computer Application in Ayya Nadar JanakiAmmal College.
+                </li>
+                <li>
+                  <span>2019-2022</span><br />BSC Computer Science in Kamaraj College.
+                </li>
+                
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ================================================Toolkits================================ -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Skills</h1>
+        <div class="services-list">
+          <div>
+            <img
+              height="64px"
+              src="https://www.vectorlogo.zone/logos/java/java-ar21.svg"
+            />
+            <br />
+            <br />
+            <p>
+              The word Core describes the basic concept of something, and here,
+              the phrase 'Core Java' defines the basic Java that covers the
+              basic concept of Java programming language
+            </p>
+            <a
+              href="https://www.javatpoint.com/what-is-core-java#:~:text=The%20Java%20SE%20is%20a,quite%20familiar%20Java%20SE%20implementation."
+              target="_blank"
+              >Learn More</a
+            >
+          </div>
+          <div>
+            <img height="64px" src="https://cdn.svgporn.com/logos/html-5.svg" />
+            <br />
+            <br />
+            <p>
+              HTML (HyperText Markup Language) is the most basic building block
+              of the Web. It defines the meaning and structure of web content.
+            </p>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              target="_blank"
+              >Learn More</a
+            >
+          </div>
+          <div>
+            <img height="64px" src="https://cdn.svgporn.com/logos/css-3.svg" />
+            <br />
+            <br />
+            <p>
+              Cascading Style Sheets (CSS) is a stylesheet language used to
+              describe the presentation of a document written in HTML or XML
+              (including XML dialects such as SVG, MathML or XHTML). CSS
+              describes how elements should be rendered on screen, on paper, in
+              speech, or on other media.
+            </p>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+              target="_blank"
+              >Learn More</a
+            >
+          </div>
+          <div>
+            <img
+              height="64px"
+              src="https://cdn.svgporn.com/logos/javascript.svg"
+            />
+            <br />
+            <br />
+            <p>
+              JavaScript, often abbreviated to JS, is a programming language
+              that is one of the core technologies of the World Wide Web,
+              alongside HTML and CSS.
+            </p>
+            <a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+              target="_blank"
+              >Learn More</a
+            >
+          </div>
+          <div>
+            <img
+              height="64px"
+              src="https://www.vectorlogo.zone/logos/mysql/mysql-ar21.svg"
+            />
+            <br />
+            <br />
+            <p>
+              SQL is a domain-specific language used in programming and designed
+              for managing data held in a relational database management system
+              (RDBMS), or for stream processing in a relational data stream
+              management system (RDSMS). It is particularly useful in handling
+              structured data, i.e. data incorporating relations among entities
+              and variables.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/SQL" target="_blank"
+              >Learn More</a
+            >
+          </div>
+          
+          
+          
+          
+          <div>
+            <img
+              height="64px"
+              src="https://cdn.svgporn.com/logos/git-icon.svg"
+            />
+            <br />
+            <br />
+            <p>
+              Git is a fast, scalable, distributed revision control system with
+              an unusually rich command set that provides both high-level
+              operations and full access to internals.
+            </p>
+            <a href="https://docs.github.com/en" target="_blank">Learn More</a>
+          </div>
+          <div>
+            <img
+              height="64px"
+              src="https://cdn.svgporn.com/logos/github-icon.svg"
+            />
+            <br />
+            <br />
+            <p>
+              GitHub is a code hosting platform for version control and
+              collaboration. It lets you and others work together on projects
+              from anywhere. This tutorial teaches you GitHub essentials like
+              repositories, branches, commits, and pull requests.
+            </p>
+            <a href="https://github.com/" target="_blank">Learn More</a>
+          </div>
+          <div>
+            <img
+              height="64px"
+              src="https://cdn.svgporn.com/logos/hibernate.svg"
+            />
+            <br />
+            <br />
+            <p>
+              Hibernate ORM (or simply Hibernate) is an object–relational
+              mapping tool for the Java programming language. It provides a
+              framework for mapping an object-oriented domain model to a
+              relational database
+            </p>
+            <a
+              href="https://en.wikipedia.org/wiki/Hibernate_(framework)"
+              target="_blank"
+              >Learn More</a
+            >
+          </div>
+          
+
+          
+          <div>
+            <img height="64px" src="https://cdn.svgporn.com/logos/nodejs.svg" />
+            <br />
+            <br />
+            <p>
+              Node.js is an open-source, cross-platform, back-end JavaScript
+              runtime environment that runs on a JavaScript Engine (i.e. V8
+              engine) and executes JavaScript code outside a web browser, which
+              was designed to build scalable network applications
+              <a href="https://en.wikipedia.org/wiki/Node.js" target="_blank"
+                >Learn More</a
+              >
+            </p>
+          </div>
+
+          <div>
+            <img height="64px" src="https://cdn.svgporn.com/logos/spring.svg" />
+            <br />
+            <br />
+            <p>
+              The Spring Framework is an application framework and inversion of
+              control container for the Java platform. The framework's core
+              features can be used by any Java application, but there are
+              extensions for building web applications on top of the Java EE
+              (Enterprise Edition) platform.
+              <a
+                href="https://en.wikipedia.org/wiki/Spring_Framework"
+                target="_blank"
+                >Learn More</a
+              >
+            </p>
+          </div>
+
+          <div>
+            <img height="64px" src="https://cdn.svgporn.com/logos/maven.svg" />
+            <br />
+            <br />
+            <p>
+              Maven is a build automation tool used primarily for Java projects.
+              Maven can also be used to build and manage projects written in C#,
+              Ruby, Scala, and other languages. The Maven project is hosted by
+              the Apache Software Foundation, where it was formerly part of the
+              Jakarta Project.
+              <a
+                href="https://en.wikipedia.org/wiki/Apache_Maven"
+                target="_blank"
+                >Learn More</a
+              >
+            </p>
+          </div>
+
+          
+          <div>
+            <img
+              height="64px"
+              src="https://cdn.svgporn.com/logos/postman.svg"
+            />
+            <br />
+            <br />
+            <p>
+              Postman is an API platform for developers to design, build, test
+              and iterate their APIs.
+              <a
+                href="https://en.wikipedia.org/wiki/Postman_(software)"
+                target="_blank"
+                >Learn More</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <!-- =================================Projects========================================== -->
+  <div id="projects">
+    <div class="container">
+      <h1 class="sub-title">Projects</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="/Images/app.jpeg" alt="" />
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>
+              The Online Shopping is a web based application intended for online retailers. The main
+objective of this application is to make it interactive and its ease of use. It would make
+searching, viewing and selection of a product easier.
+            </p>
+            <p>Tech stack used: HTML,CSS and JavaScript</p>
+            <a href="https://github.com/chinnaraja19/Online-shopping" target="_blank"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+            <a
+              href="https://github.com/chinnaraja19/"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="/Images/app.jpeg" alt="" />
+          <div class="layer">
+            <h3>ToDo-List Application</h3>
+            <p>
+              In this project, I will build a simple HTML and SpringBoot FrameWork of To Do tasks. The list will be styled according to the specifications listed later in this lesson. This simple web page will be built using webpack and served by a webpack dev server.
+            </p>
+            <p>Tech stack used: HTML,CSS and JavaScript,SpringBoot,Mysql</p>
+            <a
+              href="https://github.com/chinnaraja19/TODOLIST"
+              target="_blank"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+            <a
+              href="https://github.com/chinnaraja19/"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="/Images/app.jpeg" alt="" />
+          <div class="layer">
+            <h3>Staff Managment System</h3>
+            <p>
+              Springboot based "Staff Managment System" where user can Read, Enter, Update and Delete entries of employees from databsse using Java ,springboot ,MYSQL.
+            </p>
+            <p>Tech stack used: HTML,CSS and JavaScript</p>
+            <a
+              href="https://github.com/chinnaraja19/Model-Staff-Management-Application-"
+              target="_blank"
+              ><i class="fa-solid fa-link"></i
+            ></a>
+            <a
+              href="https://github.com/chinnaraja19/"
+              target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+        
+        
+        
+        
+        
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+
+  <!-- =============================================Github calander=========================== -->
+
+  <div
+    class="profile-title"
+    style="
+      background-color: #bcb9b9;
+      width: 80%;
+      margin: auto;
+      margin-bottom: 50px;
+    "
+  >
+    <h4
+      class="mb-0"
+      style="
+        text-align: center;
+        color: rgb(2, 14, 24);
+        font-size: 30px;
+        margin-bottom: -2%;
+        padding-top: 20px;
+      "
+    >
+      Geekforgeeks Practice 
+    </h4>
+    <img
+      src="./Images/pr1.png"
+      alt="subhajit51193"
+      style="width: 90%; height: auto; margin-top: 5vh; margin: 5%"
+    />
+  </div>
+
+  <!-- ================================= -->
+
+  <!-- =============================================Github Stats=========================== -->
+
+  <div class="profile-title">
+    <!-- <div style="display: flex">
+      <img
+        align="left"
+        src="./Images/cal.png"
+        height="275px"
+        width="100%"
+      />
+    </div> -->
+    <div>
+      <img
+        align="left"
+        src="./Images/d1.png"
+        alt="Github Stats"
+        height="255px"
+        width="550px"
+        style="margin-top: 30px;margin-left: 700px;border-radius: 5px;"
+      />
+    </div>
+    <img style="width: 90%; height: auto; margin-top: 5vh; margin: 5%" />
+  </div>
+
+  <!-- ================================= -->
+
+  <!-- =============================================Contact======================= -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i> chinnaraja1215@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> 8838563559</p>
+          <div class="social-icons">
+            <a
+              href="https://www.linkedin.com/in/chinnaraja-c-l1/"
+              target="blank"
+              ><img
+                align="center"
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
+                alt="chinnaraja-c-l1/"
+                height="20"
+                width="30"
+            /></a>
+            
+            
+            
+            <a href="https://auth.geeksforgeeks.org/user/chinnaraf362/" target="blank"
+              ><img
+                align="center"
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg"
+                alt="chinnaraf362/"
+                height="20"
+                width="30"
+            /></a>
+            <a href="https://github.com/chinnaraja19" target="blank"
+              ><img
+                align="center"
+                src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
+                alt="chinnaraja19/"
+                height="20"
+                width="30"
+            /></a>
+          </div>
+          <a href="/CV/Chinnarajacs.pdf" download class="btn btn2"
+            >Download Resume</a
+          >
+        </div>
+        <div class="contact-right">
+          <form action="" name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required />
+            <input
+              type="email"
+              name="Email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              name="Message"
+              rows="6"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    <p>
+      Made with <i class="fa-solid fa-heart"></i> HTML, CSS
+      and JavaScript
+    </p>
+  </div>
+</html>
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+  function opentab(tabname) {
+    for (tablink of tablinks) {
+      tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+      tabcontent.classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+
+  // ===========================
+
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu() {
+    sidemenu.style.right = "0";
+  }
+
+  function closemenu() {
+    sidemenu.style.right = "-200px";
+  }
+
+  // ===========================
+
+  var typed = new Typed(".typing", {
+    strings: [
+      "Chinnaraja C",
+      "a Full Stack Developer",
+      "always eager to learn new things",
+      
+    ],
+    typeSpeed: 100,
+    backSpeed: 60,
+    loop: true,
+  });
+</script>
+<script>
+  const scriptURL =
+    "https://script.google.com/macros/s/AKfycbw2y4xRQI_R-gyW4N6pEykvRLQfsBml6p3ZrIE8DjG-SIGwjY4Gk1h3ZfiDhZACOXxYBQ/exec";
+  const form = document.forms["submit-to-google-sheet"];
+  const msg = document.getElementById("msg");
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    fetch(scriptURL, { method: "POST", body: new FormData(form) })
+      .then((response) => {
+        msg.innerHTML = "Message sent successfully!";
+        setTimeout(function () {
+          msg.innerHTML = "";
+        }, 5000);
+        form.reset();
+      })
+      .catch((error) => console.error("Error!", error.message));
+  });
+</script>
+<script>
+
+  // ==================stucky navbar
+
+  var navbar = document.getElementById("navbar");
+  var menu = document.getElementById("sidemenu");
+  window.onscroll = function () {
+    if (window.pageYOffset >= menu.offsetTop) {
+      navbar.classList.add("sticky");
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  };
+</script>
